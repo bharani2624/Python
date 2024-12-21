@@ -1,0 +1,10 @@
+sb=int(input())
+sbo=int(input())
+sallowance=int(input())
+e=int(input())
+total=sb+sbo+sallowance
+print(total)
+s=total-e
+print(s)
+p=float(s/total)*float(100)
+print(format(p,"0.2f"))
